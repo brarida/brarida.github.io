@@ -26,10 +26,12 @@ header.webhead {
     background-size: cover;
 }
 
-header.webhead{
+@media (min-width: 992px) {
+  header.webhead{
     height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+  }
 }
     
