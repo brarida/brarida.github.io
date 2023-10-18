@@ -4,7 +4,18 @@
   box-sizing: border-box;
 }
 
-header.head {
-  margin-top: 40rem;
+.nav-hover{
+  color: 
+}
 
+header.head {
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 4.5rem;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/bg-head.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
