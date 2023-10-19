@@ -4,18 +4,55 @@
   box-sizing: border-box;
 }
 
-.nav-hover{
-  color: 
+/* buat ngatur header, backgorund header */
+.header {
+  position: relative;
+  height: 100vh;
+  /* merubah panjang background */
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/bg-head.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-header.head {
-  height: 100vh;
-  min-height: 40rem;
-  padding-top: 4.5rem;
-  padding-bottom: 0;
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/bg-head.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+/* ngatur untuk gradasi atau radiant gambarnya biar lama lama ilang */
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+
+/* tambahin padding buat class section */
+.section {
+  padding: 70px 10px;
+}
+
+.about-img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.about-caption {
+  margin: 1rem;
+}
+
+.img-holder {
+  min-width: 10rem;
+  max-width: 10rem;
+  margin-right: 20px;
+}
+
+div.row{
+  justify-content: center;
+  text-align: center;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 3rem;
+  height: 100%
 }
