@@ -29,6 +29,12 @@
   background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
 }
 
+.header .header-content {
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  max-width: 50rem;
+}
+
 /* tambahin padding buat class section */
 .section {
   padding: 70px 10px;
